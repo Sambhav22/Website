@@ -1,0 +1,171 @@
+.countdown-container {
+  background-image: url('image/cover.jpg');
+  background-size: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  padding-top: 200px;
+  padding-bottom: 424px;
+  
+}
+
+.countdown {
+  margin-top: 100px;
+}
+
+.info-container {
+  background-color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  padding-top: 200px;
+  padding-bottom: 107px;
+}
+
+.picture {
+  height: 180px;
+  border-radius: 100%;
+  margin-top: -150px;
+}
+
+.word {
+  word-spacing: 3px;
+  letter-spacing: 3.3px;
+  
+  margin-top: 30px;
+  font-size: 1.3rem;
+  font-weight: 50;
+  font-family: 'Syne Mono', monospace;
+  color: #ffde59;
+}
+
+.word2 {
+ 
+  margin-top: 25px;
+  font-size: 3rem;
+  font-family: 'Syne Mono', monospace;
+  font-weight: 900;
+  color: #ffde59;
+}
+
+.word3 {
+  
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: 'Syne Mono', monospace;
+  color: grey;
+  font-weight: 10;
+}
+
+.mail {
+  
+  border-radius: 50px;
+  margin-top: 15px;
+  
+  padding: 20px;
+  width: 60%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+ 
+}
+
+
+
+.submit-button {
+  
+  border: 0px;
+  border-radius: 42px;
+  font-size: 14px;
+  padding: 15px 20px;
+  margin-top: 30px;
+  
+  font-family: Arial;
+  
+  font-weight: 600;
+  color: #e6eb55 ;
+  border: 5px solid #e6eb55;
+  text-transform: uppercase;
+  transition: 1s;
+  background-color: #000;
+}
+
+.submit-button:hover {
+  box-shadow:  0 5px 50px 0 #e6eb55 inset, 0 5px 50px 0 #e6eb55, 0 5px 50px 0 #e6eb55 inset, 0 5px 50px 0 #e6eb55;
+}
+
+.social-icons {
+  margin: 70px auto 20px;
+  width: 30%;
+}
+
+.social-icons i {
+  color: grey;
+  font-size: 20px;
+}
+
+.icon:hover {
+   color: #ffde59;
+}
+
+.icons:hover {
+  color: #ffde59;
+}
+
+.iconss:hover {
+  color: #ffde59;
+}
+
+
+
+.contact {
+ 
+  font-size: 1.7rem;
+  font-family: 'Syne Mono', monospace;
+   color: #ffde59;
+  font-weight: 10;
+  margin-bottom: 50px;
+}
+
+#demo {
+  color: whitesmoke;
+  line-height: 100px;
+  text-align: center;
+  font-size: 60px;
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  
+}
+
+.duration {
+ 
+  font-size: 14px;
+  word-spacing: 50px;
+  color: whitesmoke;
+  margin-top: 0px;
+  font-family: 'Syne Mono', monospace;
+}
+
+@media (max-width: 1008px) {
+  #demo {
+    font-size: 45px;
+  }
+
+  .duration {
+    word-spacing: 25px;
+  }
+}
+
+@media (max-width: 376px) {
+  #demo {
+    font-size: 40px;
+  }
+
+  .duration {
+    word-spacing: 20px;
+  }
+}
